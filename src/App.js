@@ -8,12 +8,14 @@ function App(){
     <body>
       <div className="logo">
         <img src={logo} alt="logo" width={140} height={140}></img>
+        </div>
         <div className="title">
         <p>CAREER QUEST</p>
+      
       </div>
-      </div>
+      
       <div className="cover">
-        <div className="covers">
+         <div className="covers">
       <input type="text" placeholder="Email" size={40}></input>
       <br></br>
       <br></br>
@@ -23,9 +25,9 @@ function App(){
     <br></br>
  <a href="#">Forgot password</a>
  </div>
-  <input type="button" value="LOGIN"></input> 
-  <p> </p>
-  </div>
+  <input type="button" value="LOGIN"></input>  
+   <p> </p>
+  </div> 
    
   </div>
 
