@@ -1,9 +1,13 @@
 body{
-  /* background-image: url(image/webpgbg.png);  */
+  background-image: url(image/webpgbg.png); 
   background-size: cover;
   background-repeat:no-repeat;
+  
+  /* width: ;
+  height: ; */
 }
 .cover{
+
   display: flex;
   justify-content: center;
   margin-left: 380px;
@@ -13,14 +17,15 @@ body{
   /* box-shadow: 11px 12px 13px 12px; */
   padding-top: 30px;
   border-radius: 30px;
-  background-color: wheat;
+  background-color: white;
   padding-right: 40px;  
-
-  
+  border: black;
+  /* border: solid; */
+  /* transform: translate(-0%,-30%); */
 }
 .covers{
   align-items: center;
-  padding-top: 130px;
+  padding-top: 150px;
   padding-left: 220px;
   /* padding:170px 0 50px 170px; */
 } 
@@ -32,6 +37,7 @@ input[type=text] ,input[type=password]{
  font-style: bold;
  margin:0 180px 0 0;
  border-radius: 8px;
+ border-color:black;
 } 
 input[type=button]{
   background-color:#2F52BD;
@@ -39,28 +45,27 @@ input[type=button]{
   font-size: 15px;
   width: 140px;
   height: 40px;
-  margin:35px 0 0px 85px; 
+  margin:35px 0 0px 89px; 
  color:white;
  cursor: pointer;
  
 }
 .title{
-
+transform: translateY(160px);
 /* border: solid; */
 font-weight: bold;
+padding-left: 567px;
 }
 a{
-margin-left: 90px;
+margin-left: 100px;
 margin-bottom: 10px;
 margin-top: 0px;
 color: blue;
 } 
 .logo{
-  
-  margin:50px 0 150px 538px;
-  /* border:solid; */
-  transform: translateY(220%);
- 
 
+  margin:0px 0 150px 554px;
+  /* border:solid; */
+  transform: translateY(225%);
 }
 
