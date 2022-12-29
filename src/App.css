@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(image/webpgbg.png); 
+  background-size: cover;
+  background-repeat:no-repeat;
+  
+  /* width: ;
+  height: ; */
 }
+.cover{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 380px;
+  margin-bottom: 70px;
+  height: 400px;
+  width: 460px;
+  /* box-shadow: 11px 12px 13px 12px; */
+  padding-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 40px;  
+  border: black;
+  /* border: solid; */
+  /* transform: translate(-0%,-30%); */
+}
+.covers{
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 220px;
+  /* padding:170px 0 50px 170px; */
+} 
+input[type=text] ,input[type=password]{
+ font-size: large;
+ font-family:"cabin";
+ width: 320px;
+ height: 35px;
+ font-style: bold;
+ margin:0 180px 0 0;
+ border-radius: 8px;
+ border-color:black;
+} 
+input[type=button]{
+  background-color:#2F52BD;
+  font-weight:bold;
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+  margin:35px 0 0px 89px; 
+ color:white;
+ cursor: pointer;
+ 
+}
+.title{
+transform: translateY(160px);
+/* border: solid; */
+font-weight: bold;
+padding-left: 567px;
+}
+a{
+margin-left: 100px;
+margin-bottom: 10px;
+margin-top: 0px;
+color: blue;
+} 
+.logo{
+
+  margin:0px 0 150px 554px;
+  /* border:solid; */
+  transform: translateY(225%);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
